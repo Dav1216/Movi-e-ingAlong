@@ -1,0 +1,12 @@
+com/movingalong/dao/ContentDAO.class
+com/movingalong/restservices/RestActivator.class
+com/movingalong/utils/UtilsDB.class
+com/movingalong/restservices/ContentService$ContentBean.class
+com/movingalong/entities/Content.class
+com/movingalong/helpers/DateParser.class
+com/movingalong/restservices/ContentService.class
+com/movingalong/entities/User.class
+com/movingalong/dao/Datastore.class
+com/movingalong/dao/UserDAO.class
+com/movingalong/restservices/UserService.class
+com/movingalong/restservices/UserService$UserBean.class

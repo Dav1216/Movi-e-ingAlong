@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         metadata-complete="false"
+         version="5.0">
+         
+         <!-- <security-constraint>
+            <web-resource-collection>
+                <web-resource-name>AdminOnly</web-resource-name>
+                <url-pattern>/rest/content/add</url-pattern>
+            </web-resource-collection>
+            <auth-constraint>
+                <role-name>admin</role-name>
+            </auth-constraint>
+        </security-constraint>
+        
+        <login-config>
+            <auth-method>FORM</auth-method>
+            <form-login-config>
+                <form-login-page>/login.jsp</form-login-page>
+                <form-error-page>/loginError.jsp</form-error-page>
+            </form-login-config>
+        </login-config>
+        
+        <security-role>
+            <role-name>admin</role-name>
+        </security-role>
+        <security-role>
+            <role-name>user</role-name>
+        </security-role> -->
+        
+</web-app>

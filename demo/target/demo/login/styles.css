@@ -1,0 +1,62 @@
+body { /* Target the body element */
+    background-image: linear-gradient(to bottom, #9fcdff, #7169dc); /* Your gradient */
+    margin: 0; 
+    padding: 0;
+    height: 100vh; /* Make the background cover the full viewport height */
+    font-family: sans-serif; /* Example font */
+}
+
+.container h1 {
+    text-align: center; /* This is the key property */
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Slightly round corners */
+    box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.4); 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ffffff; /* Changed: Added border */ 
+    border-radius: 4px;
+    background: #ffffff; /* Consistent background color */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background: #ffffff; /* Highlight on focus */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+
+
+button[type="submit"] {
+    background-color: #141e30; /* Blue background */
+    background-image: linear-gradient(to bottom, #36a5d8, #0422cf); /* Gradient */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #5c6370; /* Modified gradient on hover */
+    background-image: linear-gradient(to bottom, #5c6370, #425265);
+}
